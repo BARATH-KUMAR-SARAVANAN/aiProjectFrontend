@@ -11,7 +11,7 @@ class ChatPage extends Component{
 }
 
   firstCallBot = async () =>{
-    const url = "http://localhost:5000/chat"
+    const url = "https://aichatbotbackend-71m9.onrender.com/chat"
     const options = 
     {
       method: "POST",
@@ -33,7 +33,7 @@ class ChatPage extends Component{
   }
   onClickEnter = async () => {
     const {input} = this.state
-    const url = "http://localhost:5000/chat"
+    const url = "https://aichatbotbackend-71m9.onrender.com/chat"
     const options = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
