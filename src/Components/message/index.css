@@ -1,0 +1,20 @@
+.message-container{
+  background-color: antiquewhite;
+  max-width: 500px;
+  margin: 5px;
+  padding: 1px 15px ;
+  border: 0px solid;
+  border-radius: 10px;
+  align-self: flex-start;
+  color: #690850;
+}
+.message-user-container{
+  background-color:rgb(255, 225, 187);
+  max-width: 500px;
+  margin: 5px;
+  padding: 1px 15px ;
+  border: 0px solid;
+  border-radius: 10px;
+  align-self: flex-end;
+  color: #690850;
+}

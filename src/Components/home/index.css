@@ -1,0 +1,36 @@
+.home-page-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(249, 129, 169);
+}
+.home-heading{
+  color: white;
+  margin: 0px;
+}
+.home-card-container{
+ background-color: pink;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ border-radius: 20px;
+ width: 80%;
+}
+.started-button{
+  background-color: bisque;
+  border: 0px solid ;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.bot-picture-home{
+  width: 200px;
+  margin: 0px;
+}
+.para{
+  margin:2px;
+}

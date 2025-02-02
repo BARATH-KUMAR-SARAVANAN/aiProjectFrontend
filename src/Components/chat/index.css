@@ -1,0 +1,85 @@
+
+.chat-whole-page-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: pink;
+  height: 100vh;
+  padding: 20px;
+}
+.chat-page-container{
+  display: flex;
+  justify-content: flex-start;
+  background-color: palevioletred;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+}
+.chat-bot-design{
+  padding: 0px;
+  width :100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.bot-picture{
+  padding-top: 20px;
+  width: 150px;
+}
+.back-button{
+  background-color: bisque;
+  border: 0px solid ;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.chat-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background-color: blanchedalmond;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+}
+.chat-display-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: pink;
+  border-radius: 10px;
+  height: 75%;
+  margin: 5px;
+  overflow-y: scroll;
+}
+.chat-input-area{
+  background-color: pink;
+  border-radius: 10px;
+  height: 20%;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.send-icon{
+  background-color: palevioletred;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.send-button{
+  background-color: transparent;
+  border: 0px solid;
+}
+.input-area{
+  border: 0px solid;
+  width: 85%;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
